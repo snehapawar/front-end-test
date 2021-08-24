@@ -1,0 +1,47 @@
+<div fxLayout="row" fxLayoutAlign="space-between center" class="mb-20">
+  <h2 *ngIf="data.action === 'edit'" mat-dialog-title class="font-weight-700">Edit User</h2>
+  <h2 *ngIf="data.action === 'delete'" mat-dialog-title class="font-weight-700">Delete User</h2>
+  <button mat-icon-button mat-dialog-close>
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+<mat-divider></mat-divider>
+<div mat-dialog-content *ngIf="data.action === 'edit'">
+  <div fxLayout="column" class="mt-20">
+    <mat-form-field appearance="outline" fxFlex="100" color="primary">
+      <mat-label>First name</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <mat-form-field appearance="outline" fxFlex="100" color="primary">
+      <mat-label>Email</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <div class="mb-20">
+      <label class="mr-18">Gender</label>
+      <mat-radio-group aria-label="Select an option" color="primary">
+        <mat-radio-button class="mr-18" value="1">Male</mat-radio-button>
+        <mat-radio-button value="2">Female</mat-radio-button>
+      </mat-radio-group>
+    </div>
+    <mat-form-field class="example-full-width" appearance="outline" color="primary">
+      <mat-label>Date of Birth</mat-label>
+      <input type="date" matInput>
+      <mat-icon matSuffix>date</mat-icon>
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="outline" color="primary">
+      <mat-label>Address</mat-label>
+      <textarea matInput></textarea>
+    </mat-form-field>
+  </div>
+
+</div>
+<div mat-dialog-content *ngIf="data.action === 'delete'">
+  <h4 class="my-20">Are you sure you want to delete ?</h4>
+</div>
+<div mat-dialog-actions align="end" *ngIf="data.action === 'edit'">
+  <button mat-raised-button mat-dialog-close color="primary">Submit</button>
+</div>
+<div mat-dialog-actions align="end" *ngIf="data.action === 'delete'">
+  <button mat-stroked-button mat-dialog-close color="primary" (click)="dialogRef.close(false)">No</button>
+  <button mat-raised-button mat-dialog-close color="primary" (click)="dialogRef.close(true)">Yes</button>
+</div>

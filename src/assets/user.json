@@ -1,0 +1,84 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Sneha Pawar",
+      "email": "snehapawar297@gmail.com",
+      "gender": "Female",
+      "address": "Pune",
+      "dob": "29/7/1994"
+    },
+    {
+      "id": 2,
+      "name": "Sew joen",
+      "email": "Sew@gmail.com",
+      "gender": "Male",
+      "address": "Mumbai",
+      "dob": "8/5/1999"
+    },
+    {
+      "id": 3,
+      "name": "Deo Rosa",
+      "email": "Deo@gmail.com",
+      "gender": "Male",
+      "address": "Mumbai",
+      "dob": "3/9/1997"
+    },
+    {
+      "id": 4,
+      "name": "John Doe",
+      "email": "John@gmail.com",
+      "gender": "Male",
+      "address": "Mumbai",
+      "dob": "9/12/1996"
+    },
+    {
+      "id": 5,
+      "name": "Rose Smith",
+      "email": "Rose@gmail.com",
+      "gender": "Feale",
+      "address": "Mumbai",
+      "dob": "29/3/1995"
+    },
+    {
+      "id": 6,
+      "name": "Sneha Pawar",
+      "email": "snehapawar297@gmail.com",
+      "gender": "Female",
+      "address": "Pune",
+      "dob": "29/7/1994"
+    },
+    {
+      "id": 7,
+      "name": "Sew joen",
+      "email": "Sew@gmail.com",
+      "gender": "Male",
+      "address": "Mumbai",
+      "dob": "8/5/1999"
+    },
+    {
+      "id": 8,
+      "name": "Deo Rosa",
+      "email": "Deo@gmail.com",
+      "gender": "Male",
+      "address": "Mumbai",
+      "dob": "3/9/1997"
+    },
+    {
+      "id": 9,
+      "name": "John Doe",
+      "email": "John@gmail.com",
+      "gender": "Male",
+      "address": "Mumbai",
+      "dob": "9/12/1996"
+    },
+    {
+      "id": 10,
+      "name": "Rose Smith",
+      "email": "Rose@gmail.com",
+      "gender": "Female",
+      "address": "Mumbai",
+      "dob": "29/3/1995"
+    }
+  ]
+}

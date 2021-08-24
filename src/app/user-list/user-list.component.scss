@@ -1,0 +1,18 @@
+.mat-elevation-z8 {
+  box-shadow: none;
+  padding: 12px;
+  background: #fff;
+
+  table {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0 0;
+
+    tr {
+      .mat-header-cell {
+        background-color: #00a99d;
+        color: #fff;
+      }
+    }
+  }
+}
